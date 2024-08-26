@@ -1,3 +1,5 @@
+import { FaArrowRight } from "react-icons/fa";
+
 const Demo = () => {
   return (
     <div className="border-b bg-slate-50  border-neutral-800 pb-4 lg:mb-35 text-center ">
@@ -13,6 +15,7 @@ const Demo = () => {
           className="bg-gradient-to-r from-green-500 to-green-500 py-2 px-3 rounded-md mx-3 text-neutral-100"
         >
           Get a Demo
+          <FaArrowRight className="inline-block group-hover:!translate-x-2 duration-200 p-2 text-base h-[40px] bg-primaryDark text-black" />
         </a>
       </div>
     </div>
