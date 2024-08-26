@@ -1,8 +1,15 @@
 import photo4 from "../assets/photo4.png";
+import logo1 from "../assets/logo1.png";
+import logo2 from "../assets/logo2.png";
+import logo3 from "../assets/logo3.png";
+import logo4 from "../assets/logo4.png";
+import logo5 from "../assets/logo5.png";
+import logo6 from "../assets/logo6.png";
+import logo7 from "../assets/logo7.png";
 
 const Tim = () => {
   return (
-    <div className="border-b border-neutral-800 pb-4 lg:mb-35">
+    <div className="border-b bg-slate-50  border-neutral-800 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
@@ -30,6 +37,18 @@ const Tim = () => {
             <p className="mt-10 text-lg text-ellipsis text-neutral-500 max-w-4xl mx-3 my-4">
               British Dragon Boat Racing Association
             </p>
+            <div className="flex justify-between md:w-[75%] my-9 mx-14">
+              <img src={logo1} alt="logo1" />
+              <img src={logo2} alt="logo2" />
+              <img src={logo3} alt="logo3" />
+              <img src={logo4} alt="logo4" />
+              <img src={logo5} alt="logo5" />
+              <img src={logo6} alt="logo6" />
+              <img src={logo7} alt="logo7" />
+              <span className="bg-gradient-to-r from-green-700 to-green-500 text-transparent bg-clip-text mx-3">
+                Meet all customers
+              </span>
+            </div>
           </div>
         </div>
       </div>

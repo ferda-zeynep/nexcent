@@ -2,7 +2,7 @@ import photo1 from "../assets/photo1.png";
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-800 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-800 pb-4 lg:mb-35 bg-slate-50">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start mx-3">
