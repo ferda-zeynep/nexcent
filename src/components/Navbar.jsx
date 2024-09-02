@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.svg";
 import { navItems } from "../constrants";
 
 const Navbar = () => {
