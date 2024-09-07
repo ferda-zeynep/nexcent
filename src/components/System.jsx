@@ -1,6 +1,6 @@
-import Icon1 from "../assets/Icon1.png";
-import Icon2 from "../assets/Icon2.png";
-import Icon3 from "../assets/Icon3.png";
+import Icon1 from "../../public/assets/Icon1.png";
+import Icon2 from "../../public/assets/Icon2.png";
+import Icon3 from "../../public/assets/Icon3.png";
 
 const System = () => {
   return (

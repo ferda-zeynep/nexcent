@@ -1,10 +1,10 @@
-import logo1 from "../assets/logo1.svg";
-import logo2 from "../assets/logo2.svg";
-import logo3 from "../assets/logo3.svg";
-import logo4 from "../assets/logo4.svg";
-import logo5 from "../assets/logo5.svg";
-import logo6 from "../assets/logo6.svg";
-import logo7 from "../assets/logo7.svg";
+import logo1 from "../../public/assets/logo1.svg";
+import logo2 from "../../public/assets/logo2.svg";
+import logo3 from "../../public/assets/logo3.svg";
+import logo4 from "../../public/assets/logo4.svg";
+import logo5 from "../../public/assets/logo5.svg";
+import logo6 from "../../public/assets/logo6.svg";
+import logo7 from "../../public/assets/logo7.svg";
 
 const Clients = () => {
   return (

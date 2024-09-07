@@ -1,6 +1,6 @@
-import photo5 from "../assets/photo5.png";
-import photo6 from "../assets/photo6.png";
-import photo7 from "../assets/photo7.png";
+import photo5 from "../../public/assets/photo5.png";
+import photo6 from "../../public/assets/photo6.png";
+import photo7 from "../../public/assets/photo7.png";
 import { FaArrowRight } from "react-icons/fa";
 import { MarketingCardComponent } from "./MarketingCard";
 

@@ -1,9 +1,9 @@
-import logo from "../assets/logo8.svg";
+import logo from "../../public/assets/logo8.svg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import send from "../assets/send.svg";
+import send from "../../public/assets/send.svg";
 
 const Footer = () => {
   return (

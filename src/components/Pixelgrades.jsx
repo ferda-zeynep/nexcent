@@ -1,4 +1,4 @@
-import photo2 from "../assets/photo2.png";
+import photo2 from "../../public/assets/photo2.png";
 
 const Pixelgrades = () => {
   return (

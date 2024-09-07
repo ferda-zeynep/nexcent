@@ -1,4 +1,4 @@
-import photo3 from "../assets/photo3.png";
+import photo3 from "../../public/assets/photo3.png";
 
 const Design = () => {
   return (

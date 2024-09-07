@@ -1,7 +1,7 @@
-import Icon4 from "../assets/Icon4.svg";
-import Hand from "../assets/hand.svg";
-import Icon6 from "../assets/Icon6.svg";
-import Icon7 from "../assets/Icon7.svg";
+import Icon4 from "../../public/assets/Icon4.svg";
+import Hand from "../../public/assets/hand.svg";
+import Icon6 from "../../public/assets/Icon6.svg";
+import Icon7 from "../../public/assets/Icon7.svg";
 
 const Member = () => {
   return (
