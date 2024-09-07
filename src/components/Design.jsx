@@ -2,7 +2,7 @@ import photo3 from "../assets/photo3.png";
 
 const Design = () => {
   return (
-    <div className="border-b border-neutral-800 pb-4 lg:mb-35">
+    <div className=" border-neutral-800 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
@@ -27,7 +27,7 @@ const Design = () => {
             </p>
             <a
               href="#"
-              className="bg-gradient-to-r from-green-500 to-green-500 py-2 px-3 rounded-md mx-3"
+              className="bg-gradient-to-r from-green-500 to-green-500 text-white py-2 px-3 rounded-md mx-3"
             >
               Learn More
             </a>

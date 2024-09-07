@@ -1,7 +1,12 @@
+import Icon4 from "../assets/Icon4.svg";
+import Hand from "../assets/hand.svg";
+import Icon6 from "../assets/Icon6.svg";
+import Icon7 from "../assets/Icon7.svg";
+
 const Member = () => {
   return (
-    <div className="border-b border-neutral-800 pb-4 lg:mb-35 bg-slate-50">
-      <div className="flex flex-wrap">
+    <div className=" border-neutral-800 pb-4 lg:mb-35 bg-slate-50">
+      <div className="flex flex-wrap items-center">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start mx-20">
             <h1 className="text-4xl sm:text-6xl lg:text-7xl text-ellipsis tracking-vide my-10">
@@ -14,6 +19,54 @@ const Member = () => {
             <p className="mt-10 text-lg text-ellipsistext-neutral-500 max-w-4xl mx-3 my-6">
               We reached here with our hand work and dedication
             </p>
+          </div>
+        </div>
+        <div className="w-full justify-around lg:w-1/2">
+          <div className="grid grid-cols-2  gap-4  ">
+            <div className="flex items-center">
+              <img className="w-20 mx-auto " src={Icon4} alt="Icon4" />
+              <div className="flex flex-col">
+                <h1 className="text-2xl sm:text-6xl lg:text-4xl text-ellipsis font-bold tracking-vide mx-6 my-2">
+                  2,245,341
+                </h1>
+                <p className=" text-ellipsis text-neutral-500 max-w-4xl mx-6 my-2 ">
+                  Members
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center">
+              <img className="w-20 mx-auto " src={Icon4} alt="Icon4" />
+              <div className="flex flex-col">
+                <h1 className="text-2xl sm:text-6xl lg:text-4xl text-ellipsis font-bold tracking-vide mx-6 my-2">
+                  46,328
+                </h1>
+                <p className=" text-ellipsis text-neutral-500 max-w-4xl mx-6 my-2 ">
+                  Clubs
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center">
+              <img className="w-20 mx-auto " src={Icon4} alt="Icon4" />
+              <div className="flex flex-col">
+                <h1 className="text-2xl sm:text-6xl lg:text-4xl text-ellipsis font-bold tracking-vide mx-6 my-2">
+                  828,867
+                </h1>
+                <p className=" text-ellipsis text-neutral-500 max-w-4xl mx-6 my-2 ">
+                  Event Bookings
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center">
+              <img className="w-20 mx-auto " src={Icon4} alt="Icon4" />
+              <div className="flex flex-col">
+                <h1 className="text-2xl sm:text-6xl lg:text-4xl text-ellipsis font-bold tracking-vide mx-6 my-2">
+                  1,926,436
+                </h1>
+                <p className=" text-ellipsis text-neutral-500 max-w-4xl mx-6 my-2 ">
+                  Payments
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

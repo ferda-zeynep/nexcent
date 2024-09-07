@@ -6,10 +6,11 @@ import logo4 from "../assets/logo4.svg";
 import logo5 from "../assets/logo5.svg";
 import logo6 from "../assets/logo6.svg";
 import logo7 from "../assets/logo7.svg";
+import { FaArrowRight } from "react-icons/fa";
 
 const Tim = () => {
   return (
-    <div className="border-b bg-slate-50  border-neutral-800 pb-4 lg:mb-35">
+    <div className=" bg-slate-50  border-neutral-800 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
@@ -37,7 +38,7 @@ const Tim = () => {
             <p className="mt-10 text-lg text-ellipsis text-neutral-500 max-w-4xl mx-3 my-4">
               British Dragon Boat Racing Association
             </p>
-            <div className="flex justify-between md:w-[75%] my-9 mx-14">
+            <div className="flex justify-between md:w-[85%] my-9 mx-14">
               <img src={logo1} alt="logo1" />
               <img src={logo2} alt="logo2" />
               <img src={logo3} alt="logo3" />
@@ -45,8 +46,12 @@ const Tim = () => {
               <img src={logo5} alt="logo5" />
               <img src={logo6} alt="logo6" />
               <img src={logo7} alt="logo7" />
-              <span className="bg-gradient-to-r from-green-700 to-green-500 text-transparent bg-clip-text mx-3">
+              <span className="bg-gradient-to-r text-green-600 bg-clip-text mx-3">
                 Meet all customers
+                <FaArrowRight
+                  className="inline-block group-hover:!translate-x-2 duration-200 p-2 text-base h-[40px] bg-primaryDark text-green-600   "
+                  size={30}
+                />
               </span>
             </div>
           </div>

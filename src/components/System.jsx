@@ -4,7 +4,7 @@ import Icon3 from "../assets/Icon3.png";
 
 const System = () => {
   return (
-    <div className="relative mt-20 border-b border-neutral-800 min-h-[500px]">
+    <div className="relative mt-20  border-neutral-800 min-h-[500px]">
       <div className="text-center">
         <h2 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-vide my-10">
           Manage your entire community in a single system
@@ -13,32 +13,47 @@ const System = () => {
           Who is Nextcent suitable for?
         </p>
       </div>
-      <div className="lg:col-span-3 flex justify-between mt-6">
-        <div className="px-14">
-          <img className="h-10 w-15 mr-2" src={Icon1} alt="Icon1" />
-          <h2 className="font-bold text-neutral-900">
-            Membership Organisations
-          </h2>
-          <p className="py-2 text-neutral-500">
-            Our membership management software provides full automation of
-            membership renewals and payments
-          </p>
-        </div>
-        <div>
-          <img className="h-10 w-15 mr-2" src={Icon2} alt="Icon2" />
-          <h2 className="font-bold text-neutral-900">National Associations</h2>
-          <p className="py-2 text-neutral-500">
-            Our membership management software provides full automation of
-            membership renewals and payments
-          </p>
-        </div>
-        <div>
-          <img className="h-10 w-15 mr-2" src={Icon3} alt="Icon3" />
-          <h2 className="font-bold text-neutral-900">Clubs And Groups</h2>
-          <p className="py-2 text-neutral-500">
-            Our membership management software provides full automation of
-            membership renewals and payments
-          </p>
+      <div className="w-full py-[5rem] px-4 ">
+        <div className="max-w-[1150px] mx-auto grid md:grid-cols-3 gap-24">
+          <div className="w-full shadow-xl flex flex-col p-2 my-8 rounded-lg  duration-300">
+            <img className="w-20 mx-auto mt-[-3rem] " src={Icon1} alt="Icon1" />
+            <h2 className="text-2xl font-bold text-center py-8">
+              Membership Organisations
+            </h2>
+
+            <div className="text-center font-medium">
+              <p className="py-2 text-neutral-500  mx-4">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+          </div>
+          <div className="w-full shadow-xl flex flex-col p-2 my-8 rounded-lg  duration-300">
+            <img className="w-20 mx-auto mt-[-3rem] " src={Icon2} alt="Icon2" />
+            <h2 className="text-2xl font-bold text-center py-8">
+              National Associations
+            </h2>
+
+            <div className="text-center font-medium">
+              <p className="py-2 text-neutral-500  mx-4">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+          </div>
+          <div className="w-full shadow-xl flex flex-col p-2 my-8 rounded-lg  duration-300">
+            <img className="w-20 mx-auto mt-[-3rem] " src={Icon3} alt="Icon3" />
+            <h2 className="text-2xl font-bold text-center py-8">
+              Clubs And Groups
+            </h2>
+
+            <div className="text-center font-medium">
+              <p className="py-2 text-neutral-500  mx-4">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

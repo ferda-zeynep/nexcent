@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Demo = () => {
   return (
-    <div className="border-b bg-slate-50  border-neutral-800 pb-4 lg:mb-35 text-center ">
+    <div className=" bg-slate-50 py-4  border-neutral-800 pb-4 lg:mb-35 text-center mt-16">
       <div className="">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl  tracking-vide my-7">
           Pellentesque suscipit
@@ -16,8 +16,8 @@ const Demo = () => {
         >
           Get a Demo
           <FaArrowRight
-            className="inline-block group-hover:!translate-x-2 duration-200 p-2 text-base h-[40px] bg-primaryDark text-neutral-200  "
-            size={45}
+            className="inline-block group-hover:!translate-x-2 duration-200 p-2 text-base h-[40px] bg-primaryDark text-neutral-200 size={25} "
+            size={30}
           />
         </a>
       </div>

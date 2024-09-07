@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import send from "../assets/send.svg";
 
 const Footer = () => {
   return (
@@ -20,10 +21,10 @@ const Footer = () => {
           <FaInstagram size={30} />
         </div>
       </div>
-      <div className="lg:col-span-2 flex justify-between mt-6">
+      <div className="lg:col-span-2 flex justify-around mt-6">
         <div>
           <h6 className="font-medium text-gray-100">Company</h6>
-          <ul className="text-gray-400">
+          <ul className="text-gray-300 mt-4">
             <li className="py-2 text-sm">About us</li>
             <li className="py-2 text-sm">Blog</li>
             <li className="py-2 text-sm">Contact us</li>
@@ -33,7 +34,7 @@ const Footer = () => {
         </div>
         <div>
           <h6 className="font-medium text-gray-100">Support</h6>
-          <ul className="text-gray-400">
+          <ul className="text-gray-300 mt-4">
             <li className="py-2 text-sm">Help center</li>
             <li className="py-2 text-sm">Terms of service</li>
             <li className="py-2 text-sm">Legal</li>
@@ -43,6 +44,20 @@ const Footer = () => {
         </div>
         <div>
           <h6 className="font-medium text-gray-100">Stay up to date</h6>
+          <div className="relative">
+            <input
+              className="bg-slate-700 p-3 flex w-full rounded-md  text-neutral-500 mt-4 "
+              type="email"
+              placeholder="Your email address"
+            />
+            <div
+              class="absolute inset-y-0 right-0 pl-3  
+                    flex items-center  
+                    pointer-events-none"
+            >
+              <img className="h-5 w-5 mr-2" src={send} alt="send" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
