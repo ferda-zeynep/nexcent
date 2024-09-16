@@ -1,12 +1,10 @@
-import photo3 from "../../public/assets/photo3.png";
-
 const Design = () => {
   return (
     <div className=" border-neutral-800 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img src={photo3} alt="Photo3" />
+            <img src="public/assets/photo3.png" alt="Photo3" />
           </div>
         </div>
         <div className="w-full lg:w-1/2">

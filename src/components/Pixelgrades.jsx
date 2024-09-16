@@ -1,12 +1,10 @@
-import photo2 from "../../public/assets/photo2.png";
-
 const Pixelgrades = () => {
   return (
     <div className=" border-neutral-800 pb-4 lg:mb-35">
       <div className="flex flex-wrap  items-center">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img src={photo2} alt="Photo2" />
+            <img src="public/assets/photo2.png" alt="Photo2" />
           </div>
         </div>
         <div className="w-full lg:w-1/2">

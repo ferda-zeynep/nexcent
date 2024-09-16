@@ -1,5 +1,3 @@
-import photo1 from "../../public/assets/photo1.png";
-
 const Hero = () => {
   return (
     <div className="border-neutral-800 pb-4 py-40 bg-slate-50">
@@ -24,7 +22,7 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-2/4 lg:p-8">
           <div className="flex justify-center">
-            <img src={photo1} alt="Photo1" />
+            <img src="public/assets/photo1.png" alt="Photo1" />
           </div>
         </div>
       </div>
