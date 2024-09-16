@@ -19,7 +19,7 @@ const Member = () => {
         <div className="w-full justify-around lg:w-1/2">
           <div className="grid grid-cols-2  gap-4  ">
             <div className="flex items-center">
-              <img src="public/assets/Icon4.svg" alt="Icon4" />
+              <img src="/assets/Icon4.svg" alt="Icon4" />
               <div className="flex flex-col">
                 <h1 className="text-2xl sm:text-6xl lg:text-4xl text-ellipsis font-bold tracking-vide mx-6 my-2">
                   2,245,341
@@ -30,7 +30,7 @@ const Member = () => {
               </div>
             </div>
             <div className="flex items-center">
-              <img src="public/assets/Icon5.svg" alt="Icon5" />
+              <img src="/assets/Icon5.svg" alt="Icon5" />
               <div className="flex flex-col">
                 <h1 className="text-2xl sm:text-6xl lg:text-4xl text-ellipsis font-bold tracking-vide mx-6 my-2">
                   46,328
@@ -41,7 +41,7 @@ const Member = () => {
               </div>
             </div>
             <div className="flex items-center">
-              <img src="public/assets/Icon6.svg" alt="Icon6" />
+              <img src="/assets/Icon6.svg" alt="Icon6" />
               <div className="flex flex-col">
                 <h1 className="text-2xl sm:text-6xl lg:text-4xl text-ellipsis font-bold tracking-vide mx-6 my-2">
                   828,867
@@ -52,7 +52,7 @@ const Member = () => {
               </div>
             </div>
             <div className="flex items-center">
-              <img src="public/assets/Icon7.svg" alt="Icon7" />
+              <img src="/assets/Icon7.svg" alt="Icon7" />
               <div className="flex flex-col">
                 <h1 className="text-2xl sm:text-6xl lg:text-4xl text-ellipsis font-bold tracking-vide mx-6 my-2">
                   1,926,436

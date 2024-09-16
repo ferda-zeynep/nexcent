@@ -4,7 +4,7 @@ const Design = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img src="public/assets/photo3.png" alt="Photo3" />
+            <img src="/assets/photo3.png" alt="Photo3" />
           </div>
         </div>
         <div className="w-full lg:w-1/2">

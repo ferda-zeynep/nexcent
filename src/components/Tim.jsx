@@ -6,7 +6,7 @@ const Tim = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img src="public/assets/photo4.png" alt="Photo4" />
+            <img src="/assets/photo4.png" alt="Photo4" />
           </div>
         </div>
         <div className="w-full lg:w-1/2">
@@ -31,13 +31,13 @@ const Tim = () => {
               British Dragon Boat Racing Association
             </p>
             <div className="flex justify-between md:w-[85%] my-9 mx-14">
-              <img src="public/assets/logo1.svg" alt="logo1" />
-              <img src="public/assets/logo2.svg" alt="logo2" />
-              <img src="public/assets/logo3.svg" alt="logo3" />
-              <img src="public/assets/logo4.svg" alt="logo4" />
-              <img src="public/assets/logo5.svg" alt="logo5" />
-              <img src="public/assets/logo6.svg" alt="logo6" />
-              <img src="public/assets/logo7.svg" alt="logo7" />
+              <img src="/assets/logo1.svg" alt="logo1" />
+              <img src="/assets/logo2.svg" alt="logo2" />
+              <img src="/assets/logo3.svg" alt="logo3" />
+              <img src="/assets/logo4.svg" alt="logo4" />
+              <img src="/assets/logo5.svg" alt="logo5" />
+              <img src="/assets/logo6.svg" alt="logo6" />
+              <img src="/assets/logo7.svg" alt="logo7" />
               <span className="bg-gradient-to-r text-green-600 bg-clip-text mx-3">
                 Meet all customers
                 <FaArrowRight

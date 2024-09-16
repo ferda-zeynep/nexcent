@@ -6,11 +6,7 @@ const Navbar = () => {
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between item-center">
           <div className="flex items-center flex-shrink-0 border-neutral-700/80">
-            <img
-              className="h-10 w-15 mr-2"
-              src="public/assets/logo.svg"
-              alt="logo"
-            />
+            <img className="h-10 w-15 mr-2" src="/assets/logo.svg" alt="logo" />
           </div>
           <ul className="hidden lg:flex  ml-14 space-x-12 items-center">
             {navItems.map((item, index) => (

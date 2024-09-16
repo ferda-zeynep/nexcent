@@ -4,7 +4,7 @@ const Pixelgrades = () => {
       <div className="flex flex-wrap  items-center">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img src="public/assets/photo2.png" alt="Photo2" />
+            <img src="/assets/photo2.png" alt="Photo2" />
           </div>
         </div>
         <div className="w-full lg:w-1/2">

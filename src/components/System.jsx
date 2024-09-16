@@ -14,7 +14,7 @@ const System = () => {
           <div className="w-full shadow-xl flex flex-col p-2 my-8 rounded-lg  duration-300">
             <img
               className="w-20 mx-auto mt-[-3rem] "
-              src="public/assets/Icon1.png"
+              src="/assets/Icon1.png"
               alt="Icon1"
             />
 
@@ -32,7 +32,7 @@ const System = () => {
           <div className="w-full shadow-xl flex flex-col p-2 my-8 rounded-lg  duration-300">
             <img
               className="w-20 mx-auto mt-[-3rem] "
-              src="public/assets/Icon2.png"
+              src="/assets/Icon2.png"
               alt="Icon2"
             />
             <h2 className="text-2xl font-bold text-center py-8">
@@ -49,7 +49,7 @@ const System = () => {
           <div className="w-full shadow-xl flex flex-col p-2 my-8 rounded-lg  duration-300">
             <img
               className="w-20 mx-auto mt-[-3rem] "
-              src="public/assets/Icon3.png"
+              src="/assets/Icon3.png"
               alt="Icon3"
             />
             <h2 className="text-2xl font-bold text-center py-8">
