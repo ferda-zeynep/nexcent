@@ -53,11 +53,7 @@ const Footer = () => {
                     flex items-center  
                     pointer-events-none"
             >
-              <img
-                className="h-5 w-5 mr-2"
-                src="public/assets/send.svg"
-                alt="send"
-              />
+              <img className="h-5 w-5 mr-2" src="/assets/send.svg" alt="send" />
             </div>
           </div>
         </div>
