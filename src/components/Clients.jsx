@@ -7,13 +7,13 @@ const Clients = () => {
       </p>
 
       <div className="flex justify-between md:w-[85%] my-9 mx-14">
-        <img src="/assets/logo1.svg" alt="logo1" />
-        <img src="/assets/logo2.svg" alt="logo2" />
-        <img src="/assets/logo3.svg" alt="logo3" />
-        <img src="/assets/logo4.svg" alt="logo4" />
-        <img src="/assets/logo5.svg" alt="logo5" />
-        <img src="/assets/logo6.svg" alt="logo6" />
-        <img src="/assets/logo7.svg" alt="logo7" />
+        <img src="/assets/Logo1.svg" alt="logo1" />
+        <img src="/assets/Logo2.svg" alt="logo2" />
+        <img src="/assets/Logo3.svg" alt="logo3" />
+        <img src="/assets/Logo4.svg" alt="logo4" />
+        <img src="/assets/Logo5.svg" alt="logo5" />
+        <img src="/assets/Logo6.svg" alt="logo6" />
+        <img src="/assets/Logo7.svg" alt="logo7" />
       </div>
     </div>
   );
